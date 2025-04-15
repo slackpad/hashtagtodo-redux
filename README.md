@@ -1,3 +1,5 @@
+![HashTagTodo Logo](logo.png)
+
 # HashtagTodo (Google Apps Script Edition)
 
 **HashtagTodo** is a lightweight task-tracking system built entirely on Google Calendar and Apps Script.
