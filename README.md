@@ -32,7 +32,7 @@ The script runs in the background:
 
 - Go to [Google Apps Script](https://script.new)
 - Copy and paste the code from `Code.gs`
-- Save the project (File → Rename)
+- Save the project
 
 ### 2. Authorize & Install Triggers
 
