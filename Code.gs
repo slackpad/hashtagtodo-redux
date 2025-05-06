@@ -18,7 +18,10 @@ function rollForwardIncompleteTodos() {
 
         const eventStart = event.getStartTime();
         const eventEnd = event.getEndTime();
-        if (eventEnd > now) return;
+
+        // Calculate if event is at least 2 hours past its end time
+        const twoHoursAgo = new Date(now.getTime() - (2 * 60 * 60 * 1000));
+        if (eventEnd > twoHoursAgo) return;
 
         const newStart = new Date(eventStart);
         const newEnd = new Date(eventEnd);
