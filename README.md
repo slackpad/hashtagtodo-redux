@@ -5,9 +5,9 @@
 **HashtagTodo** is a lightweight task-tracking system built entirely on Google Calendar and Apps Script.
 
 Mark events as `#todo` in your calendar, and this script will:
-- **Track** them visually (color-coded as orange)
+- **Track** them visually (color-coded as tangerine)
 - **Roll them forward** each day until they're marked complete
-- **Mark them done** when you change their color to gray
+- **Mark them done** when you change their color to graphite
 - Run across **all calendars you own**
 
 This is a port of the original [`hashtagtodo`](https://github.com/slackpad/hashtagtodo) project.
@@ -17,9 +17,9 @@ This is a port of the original [`hashtagtodo`](https://github.com/slackpad/hasht
 ## How It Works
 
 1. Add `#todo` anywhere in your calendar event title.
-2. The script highlights the event in **orange** to show it's being tracked.
-3. If it's not marked **gray**, it gets rolled forward one day when it becomes overdue.
-4. You mark it done simply by **changing the event color to gray**.
+2. The script highlights the event in **tangerine** to show it's being tracked.
+3. If it's not marked **graphite**, it gets rolled forward one day when it becomes overdue.
+4. You mark it done simply by **changing the event color to graphite**.
 5. That’s it!
 
 The script runs in the background:
@@ -49,9 +49,9 @@ The script will now run automatically and maintain your `#todo`s.
 ## Example
 
 - You create an event: `Weekly plan #todo`
-- Script colors it **orange**
+- Script colors it **tangerine**
 - You forget to do it — script bumps it to the next day
-- You finally do it — change color to **gray**
+- You finally do it — change color to **graphite**
 - Script leaves it alone forever. Done.
 
 ---
@@ -59,7 +59,7 @@ The script will now run automatically and maintain your `#todo`s.
 ## Notes
 
 - Events must contain `#todo` in the title
-- Color changes (gray = done, orange = tracked) are how the system knows what to do
+- Color changes (graphite = done, tangerine = tracked) are how the system knows what to do
 - Runs hourly by default — you can adjust the timing in the triggers
 
 ---
